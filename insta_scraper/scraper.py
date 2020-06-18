@@ -395,6 +395,8 @@ class insta_scraper:
                 raise Warning(
                     "The value of new_index_marker cannot be greater than the number of profiles to scraper"
                 )
+                
+            self.index_marker = new_index_marker
 
         for handle in tqdm(self.df.index[self.index_marker :]):
 
