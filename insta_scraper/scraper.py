@@ -21,7 +21,7 @@ import datetime
 
 class insta_scraper:
     """
-    Data collection class for Lorenzo's thesis...
+    Data collection class for University Project, by Lorenzo Gavioli...
     Usage: login to insta, collect target_accout meta-data, for specified posts on target_accout collect data on user
     interactions and data on the users themselves.
     =====
